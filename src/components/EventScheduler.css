@@ -1,0 +1,30 @@
+.scheduler {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.inputs label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.instances ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instances li {
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+}
+
+.in-view {
+  color: green;
+}
+
+.out-of-view {
+  color: red;
+  font-style: italic;
+}
